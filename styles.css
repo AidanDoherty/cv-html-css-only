@@ -1,0 +1,39 @@
+body {
+  max-width: 33%;
+  margin: auto;
+  font-family: serif;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        max-width: 100%;
+    }
+}
+
+.photo {
+  flex: 30%;
+}
+
+.info {
+  flex: 70%;
+}
+.container {
+  display: flex;
+}
+.content {
+  padding-left: 5em;
+}
+.container,.list-section,.projects,.objectives,.past-projects {
+
+  padding-bottom: 1em;
+
+  border-bottom: 1px solid;
+}
+ul {
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+}
