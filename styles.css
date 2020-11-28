@@ -2,8 +2,14 @@ body {
   max-width: 33%;
   margin: auto;
   font-family: serif;
-}
+  background-color: white;
+  padding-left: 1em;
+  padding-right: 1em;
 
+}
+html{
+    background-color: lightgray;
+}
 @media only screen and (max-width: 600px) {
     body {
         max-width: 100%;
@@ -24,7 +30,7 @@ body {
 .content {
   padding-left: 5em;
 }
-.container,.list-section,.projects,.objectives,.past-projects {
+.container,.list-section,.projects,.objectives,.past-projects,.education {
 
   padding-bottom: 1em;
 
